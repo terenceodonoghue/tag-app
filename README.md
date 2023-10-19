@@ -2,12 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Note: This app needs Node.js and `pnpm` installed
 
 ```bash
-npm run dev
-# or
+# Install dependencies
+pnpm install
+
+# App can be run locally without a web server
 pnpm dev
+
+# To build website for hosting on a web server
+pnpm build
+pnpm export
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
